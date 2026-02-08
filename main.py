@@ -4,7 +4,7 @@ import time, os
 
 # Configuration
 BLUESKY_HANDLE = os.getenv("BLUESKY_HANDLE")
-BLUESKY_APP_PASSWORD = os.getenv("BLUESKY_APP_PASSWORD")  # Replace with your app password
+BLUESKY_APP_PASSWORD = os.getenv("BLUESKY_APP_PASSWORD")
 
 # Phase 2 settings
 MIN_CONNECTIONS = 3  # Minimum connections to existing graph members to be added
@@ -304,8 +304,7 @@ def main():
     # Initialize
     print("Furry Fandom Network Mapper")
     print("=" * 50)
-    
-    # Connect to Bluesky
+
     api = BlueskyAPI(BLUESKY_HANDLE, BLUESKY_APP_PASSWORD)
     
     # Connect to database

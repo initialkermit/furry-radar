@@ -16,7 +16,7 @@ import sys, os
 
 # Configuration
 BLUESKY_HANDLE = os.getenv("BLUESKY_HANDLE")
-BLUESKY_APP_PASSWORD = os.getenv("BLUESKY_APP_PASSWORD")  # Replace with your app password
+BLUESKY_APP_PASSWORD = os.getenv("BLUESKY_APP_PASSWORD")
 
 def reset_phase2_users(db):
     """Reset crawled status for all non-mutual-core users"""
