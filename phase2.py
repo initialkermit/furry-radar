@@ -12,7 +12,7 @@ Before running this:
 from bluesky_api import BlueskyAPI
 from storage import FurryNetworkDB
 from main import phase2_expand_graph
-import sys
+import sys, os
 
 # Configuration
 BLUESKY_HANDLE = os.getenv("BLUESKY_HANDLE")

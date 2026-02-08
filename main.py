@@ -1,6 +1,6 @@
 from bluesky_api import BlueskyAPI
 from storage import FurryNetworkDB
-import time
+import time, os
 
 # Configuration
 BLUESKY_HANDLE = os.getenv("BLUESKY_HANDLE")
