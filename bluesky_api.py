@@ -70,7 +70,7 @@ class BlueskyAPI:
                     break
                 
                 # Be polite to the API
-                time.sleep(0.5)
+                time.sleep(0.05)
                 
             except Exception as e:
                 print(f"Error getting followers for {actor}: {e}")
